@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export default function ProductsPage() {
     return (
       <main>
-        <h1>제품 목록</h1>
-        <p>여기에 제품들이 표시될 예정입니다.</p>
+        <p>여기에 제품 목록 표시될 예정</p>
+        <Link href="/products/123">123</Link>
       </main>
     );
   }

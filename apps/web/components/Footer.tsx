@@ -5,7 +5,7 @@ import { styled } from "styled-components";
 export default function Footer() {
   return (
     <FooterContainer>
-      <p>© 2025 IKEA Clone. All rights reserved.</p>
+      <p>Footer</p>
     </FooterContainer>
   );
 }

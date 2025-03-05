@@ -8,6 +8,7 @@ export default function Header() {
     <HeaderContainer>
       <Nav>
         <Link href="/">홈</Link>
+        <br />
         <Link href="/products">제품 목록</Link>
       </Nav>
     </HeaderContainer>
