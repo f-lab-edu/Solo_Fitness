@@ -1,20 +1,16 @@
 "use client";
 
-import { ReactNode } from "react";
+import { styled } from "styled-components";
 
-interface ButtonProps {
-  children: ReactNode;
-  className?: string;
-  appName: string;
-}
+export const Button = styled.button`
+  background: #007aff;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 
-export const Button = ({ children, className, appName }: ButtonProps) => {
-  return (
-    <button
-      className={className}
-      onClick={() => alert(`Hello from your ${appName} app!`)}
-    >
-      {children}
-    </button>
-  );
-};
+  &:hover {
+    background: #005bb5;
+  }
+`;
